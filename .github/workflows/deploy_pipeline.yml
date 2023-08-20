@@ -262,3 +262,5 @@ jobs:
           IMAGE_NAME: ${{ env.IMAGE_NAME }}
         run: |
           docker push ${{ secrets.ECR_REGISTRY }}/${{env.IMAGE_NAME  }}
+
+          
